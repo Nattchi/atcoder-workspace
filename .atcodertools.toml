@@ -1,0 +1,14 @@
+[codestyle]
+indent_type='space'
+indent_width=4
+template_file='~/atcoder/template.py'
+workspace_dir='~/atcoder/'
+lang='python'
+
+[etc]
+download_without_login=true
+parallel_download=true
+save_no_session_cache=false
+in_example_format="in_{}.txt"
+out_example_format="out_{}.txt"
+
