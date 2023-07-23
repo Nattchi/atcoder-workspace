@@ -14,6 +14,7 @@ def binary_search(A: "List[int]", key: int) -> int:
             left = mid
     return right + 1
 
+
 def solve(N: int, X: int, A: "List[int]") -> None:
     print(binary_search(A, X))
 
@@ -29,6 +30,7 @@ def main() -> None:
     X = int(next(tokens))  # type: int
     A = [int(next(tokens)) for _ in range(N)]  # type: "List[int]"
     solve(N, X, A)
+
 
 if __name__ == '__main__':
     main()
